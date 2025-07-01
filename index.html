@@ -6,6 +6,17 @@
     <title>Forex + BTC Volatility Monitor</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Fallback content if JS fails -->
+      <noscript>
+        <h1 style="color: red; text-align: center; margin-top: 50px;">
+          JavaScript is required to run this app!
+        </h1>
+      </noscript>
+      <div id="loading" style="text-align: center; padding: 50px;">
+        Loading application...
+      </div>
+    </div>
+    <!-- Vite will inject scripts here -->
   </body>
 </html>
